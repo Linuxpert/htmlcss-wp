@@ -1,0 +1,78 @@
+/* generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenitore{
+    
+    margin: 10px auto;
+    /* regole di debug */
+    background-color: rgb(3, 127, 243);
+
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body{
+
+    width: 60%;
+    margin: 10px auto;
+
+}
+
+/* intestazione */
+
+#banner {
+    height: 80px;
+    
+    margin: 10px auto;
+    /* regole di debug */
+    background-color: fuchsia;
+}
+
+/* blocco centrale */
+#centrale{
+    height: 400px;
+    /* regole debug */
+    background-color: goldenrod;
+
+}
+
+/* parte sezionata */
+#titolo{
+    /* regole debug */
+    background-color: rgb(122, 228, 255);
+    height: 100px;
+}
+
+.widget {
+
+    float: left;
+    width: 15%;
+    margin: 10px 0;
+    /* regole di debug */
+    background-color: rgb(122, 228, 255);
+    height: 300px;
+}
+
+#centro {
+    float: left;
+    width: 67%;
+    margin: 10px 1.5%;
+    /* regole di debug */
+    background-color:rgb(122, 228, 255);
+    height: 300px;
+}
+
+/* footer */
+footer {
+    height: 50px;
+    /* regole debug */
+    background-color: blueviolet;
+}

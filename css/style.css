@@ -1,15 +1,18 @@
 /* generali */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100;1,200;1,500&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 .contenitore{
     
     margin: 10px auto;
     /* regole di debug */
-    background-color: rgb(3, 127, 243);
+    /* background-color: rgb(3, 127, 243); */
 
 }
 
@@ -23,7 +26,7 @@ body{
 
     width: 60%;
     margin: 10px auto;
-
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* intestazione */
@@ -33,22 +36,56 @@ body{
     
     margin: 10px auto;
     /* regole di debug */
-    background-color: fuchsia;
+    /* background-color: fuchsia; */
+}
+
+#logo {
+    margin: 10px;
+    width: 150px;
+    border-right: 2px;
+    
+}
+
+#navigazione li {
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+
+#margine {
+    margin: 30px 0;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
 }
 
 /* blocco centrale */
 #centrale{
-    height: 400px;
-    /* regole debug */
-    background-color: goldenrod;
+     height: 400px; 
+    background-image: url(../img/banner.jpg);
+    border-radius: 20px; 
 
 }
 
+.testo {
+    color: white;
+    margin-left: 30px;
+    
+}
+
+
 /* parte sezionata */
 #titolo{
+    margin: 30px 0;
     /* regole debug */
-    background-color: rgb(122, 228, 255);
-    height: 100px;
+    /* background-color: rgb(122, 228, 255); */
+    /* height: 100px; */
+}
+
+#titolo span {
+    color: gray;
 }
 
 .widget {
@@ -57,8 +94,13 @@ body{
     width: 15%;
     margin: 10px 0;
     /* regole di debug */
-    background-color: rgb(122, 228, 255);
-    height: 300px;
+    /* background-color: rgb(122, 228, 255); */
+    /* height: 300px; */
+}
+.img1 {
+    height: 170px;
+    border-radius: 20px;
+    
 }
 
 #centro {
@@ -66,13 +108,23 @@ body{
     width: 67%;
     margin: 10px 1.5%;
     /* regole di debug */
-    background-color:rgb(122, 228, 255);
-    height: 300px;
+    /* background-color:rgb(122, 228, 255);  */
+    /* height: 300px; */
+}
+.img2 {
+    height: 170px;
+    margin: 0 auto;
+    border-radius: 20px;
+    
 }
 
 /* footer */
 footer {
+    padding: 10px 500px;
     height: 50px;
     /* regole debug */
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
+}
+#cuore {
+    color: red;
 }

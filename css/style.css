@@ -1,5 +1,5 @@
 /* generali */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100;1,200;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,100;1,200;1,500&display=swap');
 
 *{
     margin: 0;
@@ -78,13 +78,15 @@ a {
 
 /* parte sezionata */
 #titolo{
+    font-size: 20px;
+    font-style: Semi-bold 600 ;
     margin: 30px 0;
     /* regole debug */
     /* background-color: rgb(122, 228, 255); */
     /* height: 100px; */
 }
 
-#titolo span {
+#sottotitle {
     color: gray;
 }
 
@@ -97,6 +99,15 @@ a {
     /* background-color: rgb(122, 228, 255); */
     /* height: 300px; */
 }
+
+p {
+    color: grey;
+}
+
+.paragraf {
+    margin: 10px 0;
+}
+
 .img1 {
     height: 170px;
     border-radius: 20px;
@@ -120,11 +131,12 @@ a {
 
 /* footer */
 footer {
-    padding: 10px 500px;
-    height: 50px;
+    padding: 10px 450px;
+    /* height: 50px; */
     /* regole debug */
     /* background-color: blueviolet; */
 }
 #cuore {
     color: red;
+    display: inline-block
 }
